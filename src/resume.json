@@ -1,0 +1,116 @@
+{
+  "basics": {
+    "name": "Ben Lorantfy"
+  },
+  "education": [
+    {
+      "institution": "McMaster University, Hamilton, ON",
+      "area": "Software Engineering Tech.",
+      "studyType": "B. Tech",
+      "startDate": "2019-09-01"
+    },
+    {
+      "institution": "Conestoga College, Kitchener, ON",
+      "area": "Software Engineering Tech.",
+      "studyType": "Adv. Diploma",
+      "startDate": "2013-09-01",
+      "endDate": "2017-04-31"
+    }
+  ],
+  "work": [
+    {
+      "company": "Postmedia Innovation Outpost, Kitchener ON",
+      "position": "Frontend Lead",
+      "startDate": "2018-10-01",
+      "tags": ["react", "redux", "typescript", "jest", "nodejs", "babel", "webpack", "eslint", "selenium", "cucumberjs", "dangerjs", "CircleCI"],
+      "summary": "- Oversaw and participated in front-end development of highly depended on web applications.  \n- Provided code-reviews, mentoring, and peer programming  \n- Maintained front-end infrastructure  \n - Worked on back-end services as needed",
+      "highlights": [
+        "Created and maintained an internal component library for use across projects",
+        "Introduced tools and processes for improving our acccessibility. For example, by adding eslint a11y rules, running lighthouse in CI, creating a11y checklists, etc.",
+        "Reduced JavaScript bundle size in our apps by 84%",
+        "Started and oversaw long-term technical initiatives, including migrating a project to typescript, upgrading from react 15 to react 16, and others"
+      ]
+    },
+    {
+      "company": "Postmedia Innovation Outpost, Kitchener ON",
+      "position": "Frontend Developer",
+      "tags": ["react", "redux", "typescript", "jest", "nodejs", "babel", "webpack", "eslint", "selenium", "cucumberjs"],
+      "startDate": "2017-05-01",
+      "endDate": "2018-10-01",
+      "summary": "- Wrote well-tested, readable front-end and back-end code  \n- Worked in an agile environment, participating in grooming and planning sessions",
+      "highlights": [
+        "Created a dynamic form engine and form builder to allow easy creation and usage of admin-built forms",
+        "Helped create an internal ordering system that reliably handles hundreds of orders a day",
+        "Helped create an advertising analytics platform, providing insights for sales people and a few thousand postmedia clients"
+      ]
+    },
+    {
+      "company": "Six Factors Inc., Kitchener ON",
+      "tags": ["react", "redux", "typescript", "nodejs"],
+      "position": "Software Developer",
+      "startDate": "2017-02-01",
+      "endDate": "2017-04-01",
+      "summary": "- Worked in a fast-paced startup environment  \n- Worked on front-end and back-end code"
+    },
+    {
+      "company": "Rivison Inc., Petrolia ON",
+      "tags": ["angularjs", "cordova"],
+      "position": "Mobile Developer",
+      "startDate": "2016-06-01",
+      "endDate": "2016-09-01",
+      "summary": "- Wrote JavaScript code for a PhoneGap mobile application  \n- Responded to customer support questions ",
+      "highlights": [
+        "Helped create a new version of our flagship product in a new technology"
+      ]
+    },
+    {
+      "company": "Brose Canada Inc., London ON",
+      "tags": ["jQuery", "typescript", "html", "css", "C#", ".NET", "MSSQL"],
+      "position": "Web App Developer",
+      "startDate": "2015-06-01",
+      "endDate": "2016-06-01",
+      "summary": "- Wrote front-end and back-end code for several web applications to improve production processes  \n- Performed requirement gathering, project management, server administration, and testing",
+      "highlights": [
+        "Created a quality assurance tracking system from start to finish. System was used on the shop floor to submit and track car part testing. Production managers noticed substantial efficiency and communication benefits",
+        "Won a Conestoga Co-Op Student of the Year award in part because of the quality assurance system I built"
+      ]
+    },
+    {
+      "position": "Freelance Developer",
+      "tags": ["html", "css", "react", "redux", "jQuery", "typescript", "nodejs", "PHP", "MySQL", "cordova"],
+      "startDate": "2013",
+      "summary": "I have years of experience working on freelance development projects including websites, apps, graphic design, and 3D modeling. Clients include a watercolor artist, a party company, a realty company, a lab equipment supplier, a professional therapist, the University of Waterloo, and others"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Conestoga Co-Op Student of the Year Award",
+      "date": "2015",
+      "awarder": "Conestoga College",
+      "summary": "I was awarded a Conestoga Co-Op Student of the Year Award in 2015 for my Co-Op work at Brose Canada Inc. where I developed several web systems to help them optimize their production processes. This is a prestigious award that is given to students who demonstrate significant job achievement, academic achievement, and extracurricular involvement in the school and/or community."
+    },
+    {
+      "title": "Skills Canada Web Development Gold Medal",
+      "date": "2015-06-01",
+      "awarder": "Skills Canada",
+      "summary": "I was awarded the Skills Canada Web Development Gold Medal in 2015 for my proficiency in front-end and back-end web development at the Skills Canada 2015 competition in Saskatoon, Saskatchewan. I had advanced through the college competition and a provincial competition before winning nationally. Skills Canada is a well known organization that organizes a national event each year in a rotating province with hundreds of competitions in various skill trade fields."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "redux-injectors",
+      "website": "https://github.com/react-boilerplate/redux-injectors",
+      "tags": ["react", "redux", "jest", "prettier", "documentationjs", "babel"]
+    },
+    {
+      "organization": "danger-plugin-commit-lint",
+      "website": "https://github.com/BenLorantfy/danger-plugin-commit-lint",
+      "tags": ["dangerjs", "typescript"]
+    },
+    {
+      "organization": "DefinitelyTyped contributions",
+      "website": "https://github.com/DefinitelyTyped/DefinitelyTyped/pulls?q=is%3Apr+author%3ABenLorantfy",
+      "tags": ["typescript"]
+    }
+  ]
+}

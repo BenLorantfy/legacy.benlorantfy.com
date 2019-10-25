@@ -28,7 +28,7 @@ export const DateRange: React.FC<{ startDate: string, endDate: string, showMonth
   const startYear = startDate.getFullYear(); 
   const endYear = endDate.getFullYear(); 
 
-  const numDays = numDaysBetweenDates({ startDate: props.startDate, endDate: props.endDate });
+  // const numDays = numDaysBetweenDates({ startDate: props.startDate, endDate: props.endDate });
 
   if (props.showMonths || typeof props.showMonths === "undefined") {
     // return (<span>{startMonth} {startYear} - {endMonth} {endYear} ({numDays} days)</span>);
@@ -39,10 +39,10 @@ export const DateRange: React.FC<{ startDate: string, endDate: string, showMonth
   return (<span>{startYear} - {endYear}</span>);
 }
 
-function numDaysBetweenDates(params: { startDate: string, endDate: string }) {
-  const date1 = new Date(params.startDate);
-  const date2 = new Date(params.endDate);
-  const diffTime = Math.abs(date2.getTime() - date1.getTime());
-  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
-  return diffDays;
-}
+// function numDaysBetweenDates(params: { startDate: string, endDate: string }) {
+//   const date1 = new Date(params.startDate);
+//   const date2 = new Date(params.endDate);
+//   const diffTime = Math.abs(date2.getTime() - date1.getTime());
+//   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+//   return diffDays;
+// }

@@ -1,48 +1,28 @@
-import * as React from 'react';
+import { DateTime } from 'luxon';
 
-export const DateRange: React.FC<{ startDate: string, endDate: string, showMonths?: boolean }> = (props) => {
-  const months = [
-    'January',
-    'Febuary',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
-  ];
+const format = { month: 'long', year: 'numeric' };
 
-  const startDate = new Date(props.startDate);
-  const endDate = new Date(props.endDate);
+function formatDuration(params: { startDate: DateTime, endDate: DateTime }) {
+  const startDate = params.startDate;
+  const endDate = params.endDate;
+  const diff = endDate.diff(startDate).shiftTo('years', 'months')
+  const years = diff.years;
+  const months = Math.ceil(diff.months);
 
-  const startMonthIndex = startDate.getMonth();
-  const startMonth = months[startMonthIndex];
-
-  const endMonthIndex = endDate.getMonth();
-  const endMonth = months[endMonthIndex];
-
-  const startYear = startDate.getFullYear(); 
-  const endYear = endDate.getFullYear(); 
-
-  // const numDays = numDaysBetweenDates({ startDate: props.startDate, endDate: props.endDate });
-
-  if (props.showMonths || typeof props.showMonths === "undefined") {
-    // return (<span>{startMonth} {startYear} - {endMonth} {endYear} ({numDays} days)</span>);
-    return (<span>{startMonth} {startYear} - {endMonth} {endYear}</span>);
+  if (years === 0) {
+    return `${months} months`;
   }
 
-  // return (<span>{startYear} - {endYear} ({numDays} days)</span>);
-  return (<span>{startYear} - {endYear}</span>);
+  if (months === 0) {
+    return `${years} years`;
+  }
+
+  return `${years} years, ${months} months`;
 }
 
-// function numDaysBetweenDates(params: { startDate: string, endDate: string }) {
-//   const date1 = new Date(params.startDate);
-//   const date2 = new Date(params.endDate);
-//   const diffTime = Math.abs(date2.getTime() - date1.getTime());
-//   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
-//   return diffDays;
-// }
+export const formatDateRange = (params: { startDate: string, endDate: string, showMonths?: boolean }) => {
+  const startDate = DateTime.fromISO(params.startDate);
+  const endDate = DateTime.fromISO(params.endDate);
+  return `${startDate.toLocaleString(format)} - ${endDate.toLocaleString(format)} (${formatDuration({ startDate, endDate })})`
+
+}

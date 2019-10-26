@@ -7,7 +7,7 @@ import { Page } from '../components/Page';
 import { Header1 } from '../components/Header1';
 import { Header2 } from '../components/Header2';
 import { Header3 } from '../components/Header3';
-import { DateRange } from '../components/DateRange';
+import { formatDateRange } from '../components/DateRange';
 import { PageColumn } from '../components/PageColumn';
 import { Link } from '../components/Link';
 import { useToday } from '../hooks/useToday';
@@ -50,13 +50,20 @@ export const HomePage: React.FC = (props) => {
               <Spacer margin={{ bottom: "xl" }} key={idx}>
                 <Header3
                   text={workItem.position}
-                  secondaryText={(
-                    <DateRange
-                      startDate={workItem.startDate}
-                      endDate={workItem.endDate || today.toISOString()}
-                      showMonths={false}
-                    />
-                  )}
+                  // secondaryText={(
+                  //   <formatDateRange
+                  //     startDate={workItem.startDate}
+                  //     endDate={workItem.endDate || today.toISOString()}
+                  //     // showMonths={false}
+                  //   />
+                  // )}
+                  secondaryText={
+                    formatDateRange({ 
+                      startDate: workItem.startDate,
+                      endDate: workItem.endDate || today.toISOString(),
+                      showMonths: false,
+                    })
+                  }
                   tertiaryText={workItem.company}
                   tags={workItem.tags}
                 />
@@ -77,13 +84,13 @@ export const HomePage: React.FC = (props) => {
                 <Header3
                   key={idx}
                   text={`${educationItem.area} (${educationItem.studyType})`}
-                  secondaryText={(
-                    <DateRange
-                      startDate={educationItem.startDate}
-                      endDate={educationItem.endDate || today.toISOString()}
-                      showMonths={false}
-                    />
-                  )}
+                  secondaryText={
+                    formatDateRange({ 
+                      startDate: educationItem.startDate,
+                      endDate: educationItem.endDate || today.toISOString(),
+                      showMonths: false,
+                    })
+                  }
                   tertiaryText={educationItem.institution}
                 />
               </Spacer>

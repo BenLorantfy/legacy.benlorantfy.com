@@ -30,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
   }
 
   @media print {

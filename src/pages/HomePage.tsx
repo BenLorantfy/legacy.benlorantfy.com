@@ -12,6 +12,9 @@ import { PageColumn } from '../components/PageColumn';
 import { Link } from '../components/Link';
 import { useToday } from '../hooks/useToday';
 import { Row } from '../components/Row';
+import { BackgroundHighlight } from '../components/BackgroundHighlight';
+import { HideOnMobile } from '../components/HideOnMobile';
+import { ShowOnMobile } from '../components/ShowOnMobile';
 
 /** icons */
 import { GitHubIcon } from '../icons/GitHubIcon';
@@ -44,6 +47,16 @@ export const HomePage: React.FC = (props) => {
       </Row>
       <PageContent>
         <PageColumn>
+          <ShowOnMobile>
+            <Header2>Summary</Header2>
+            <Spacer margin={{ bottom: 'xl' }}>
+              <BackgroundHighlight>
+                <Section
+                  summary={resume.basics.summary}
+                />
+              </BackgroundHighlight>
+            </Spacer>
+          </ShowOnMobile>
           <Header2>Experience</Header2>
           {resume.work.map((workItem, idx) => {
             return (
@@ -71,6 +84,16 @@ export const HomePage: React.FC = (props) => {
         </PageColumn>
 
         <PageColumn>
+          <HideOnMobile>
+            <Header2>Summary</Header2>
+            <Spacer margin={{ bottom: 'xl' }}>
+              <BackgroundHighlight>
+                <Section
+                  summary={resume.basics.summary}
+                />
+              </BackgroundHighlight>
+            </Spacer>
+          </HideOnMobile>
           <Header2>Education</Header2>
           {resume.education.map((educationItem, idx) => {
             return (

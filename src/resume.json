@@ -1,6 +1,7 @@
 {
   "basics": {
-    "name": "Ben Lorantfy"
+    "name": "Ben Lorantfy",
+    "summary": "- 4+ years of professional software development  \n- 6+ years of occasional mobile and web freelance development  \n- Skilled in react, redux, JavaScript, HTML5, CSS3, TypeScript, nodejs  \n- Experience with automated testing tools such as jest, enzyme, selenium, cucumberjs  \n- Experience with AWS and CircleCI"
   },
   "education": [
     {
@@ -26,7 +27,7 @@
       "summary": "- Oversaw and participated in front-end development of highly depended on web applications.  \n- Provided code-reviews, mentoring, and peer programming  \n- Maintained front-end infrastructure  \n - Worked on back-end services as needed",
       "highlights": [
         "Created and maintained an internal component library for use across projects",
-        "Introduced tools and processes for improving our acccessibility. For example, by adding eslint a11y rules, running lighthouse in CI, creating a11y checklists, etc.",
+        "Introduced tools and processes for improving our accessibility. For example, by adding eslint a11y rules, running lighthouse in CI, creating a11y checklists, etc.",
         "Reduced JavaScript bundle size in our apps by 84%",
         "Started and oversaw long-term technical initiatives, including migrating a project to typescript, upgrading from react 15 to react 16, and others"
       ]
@@ -41,7 +42,7 @@
       "highlights": [
         "Created a dynamic form engine and form builder to allow easy creation and usage of admin-built forms",
         "Helped create an internal ordering system that reliably handles hundreds of orders a day",
-        "Helped create an advertising analytics platform, providing insights for sales people and a few thousand postmedia clients"
+        "Helped create an advertising analytics platform, providing insights for sales people and a few thousand Postmedia clients"
       ]
     },
     {
@@ -79,7 +80,7 @@
       "position": "Freelance Developer",
       "tags": ["html", "css", "react", "redux", "jQuery", "typescript", "nodejs", "PHP", "MySQL", "cordova"],
       "startDate": "2013",
-      "summary": "I have years of experience working on freelance development projects including websites, apps, graphic design, and 3D modeling. Clients include a watercolor artist, a party company, a realty company, a lab equipment supplier, a professional therapist, the University of Waterloo, and others"
+      "summary": "I have years of experience working on freelance development projects including websites, apps, graphic design, and 3D modelling. Clients include a water-colour artist, a party company, a realty company, a lab equipment supplier, a professional therapist, the University of Waterloo, and others"
     }
   ],
   "awards": [
@@ -87,11 +88,11 @@
       "title": "Conestoga Co-Op Student of the Year Award",
       "date": "2015",
       "awarder": "Conestoga College",
-      "summary": "I was awarded a Conestoga Co-Op Student of the Year Award in 2015 for my Co-Op work at Brose Canada Inc. where I developed several web systems to help them optimize their production processes. This is a prestigious award that is given to students who demonstrate significant job achievement, academic achievement, and extracurricular involvement in the school and/or community."
+      "summary": "I was awarded a Conestoga Co-Op Student of the Year Award in 2015 for my Co-Op work at Brose Canada Inc. where I developed several web applications to help them optimize their production processes. This is a prestigious award that is given to students who demonstrate significant job achievement, academic achievement, and extracurricular involvement in the school and/or community."
     },
     {
       "title": "Skills Canada Web Development Gold Medal",
-      "date": "2015-06-01",
+      "date": "2015",
       "awarder": "Skills Canada",
       "summary": "I was awarded the Skills Canada Web Development Gold Medal in 2015 for my proficiency in front-end and back-end web development at the Skills Canada 2015 competition in Saskatoon, Saskatchewan. I had advanced through the college competition and a provincial competition before winning nationally. Skills Canada is a well known organization that organizes a national event each year in a rotating province with hundreds of competitions in various skill trade fields."
     }

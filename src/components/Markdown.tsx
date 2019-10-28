@@ -10,5 +10,9 @@ export const Markdown = styled(ReactMarkdown)`
     margin-bottom: 0;
   }
 
+  li {
+    margin-bottom: 2px;
+  }
+
   font-size: 1.6rem;
 `;

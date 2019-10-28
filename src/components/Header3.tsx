@@ -38,7 +38,7 @@ const Header = styled.header`
 
 const PrimaryText = styled.h3`
   font-size: 2.2rem;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 700;
@@ -46,13 +46,13 @@ const PrimaryText = styled.h3`
 
 const SecondaryText = styled.span`
   font-size: 1.4rem;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   color: ${props => props.theme.palette.subduedColor};
   font-weight: 700;
 `;
 
 const TertiaryText = styled.span`
   font-size: 2.0rem;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   color: ${props => props.theme.palette.subduedColor};
 `;

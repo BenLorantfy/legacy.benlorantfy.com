@@ -3,7 +3,7 @@ import { getSpacing } from '../utils';
 
 export const Header2 = styled.h2`
   font-size: 3.8rem;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   color: ${(props) => props.theme.palette.highlightColor};
   font-weight: 700;
   margin-top: 0;

@@ -9,7 +9,7 @@ export interface HeaderProps {
 
 export const H1 = styled.h1`
   font-size: 6.4rem;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   margin-top: 0;
   color: ${(props) => props.theme.palette.highlightColor};
   font-weight: 700;

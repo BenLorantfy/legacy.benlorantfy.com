@@ -15,7 +15,7 @@ import { Row } from '../components/Row';
 
 /** icons */
 import { GitHubIcon } from '../icons/GitHubIcon';
-import { CodePenIcon } from '../icons/CodePenIcon';
+import { EmailIcon } from '../icons/EmailIcon';
 
 import resume from "../resume.json";
 import { PageContent } from '../components/PageContent';
@@ -27,7 +27,7 @@ export const HomePage: React.FC = (props) => {
     <Page>
       <Row justifyContent="space-between">
         <Header1 text={resume.basics.name} />
-        <div>
+        <div style={{ flexShrink: 0 }}>
           <Row alginItems="center">
             <Spacer margin={{ right: "sm" }}>
               <GitHubIcon /> 
@@ -36,9 +36,9 @@ export const HomePage: React.FC = (props) => {
           </Row>
           <Row alginItems="center">
             <Spacer margin={{ right: "sm" }}>
-              <CodePenIcon /> 
+              <EmailIcon /> 
             </Spacer>
-            <Link style={{ marginTop: "-6px" }} href="https://codepen.io/BenLorantfy">codepen.io/BenLorantfy</Link>
+            <Link style={{ marginTop: "-6px" }} href="mailto:ben@lorantfy.com">ben@lorantfy.com</Link>
           </Row>
         </div>
       </Row>
@@ -50,18 +50,12 @@ export const HomePage: React.FC = (props) => {
               <Spacer margin={{ bottom: "xl" }} key={idx}>
                 <Header3
                   text={workItem.position}
-                  // secondaryText={(
-                  //   <formatDateRange
-                  //     startDate={workItem.startDate}
-                  //     endDate={workItem.endDate || today.toISOString()}
-                  //     // showMonths={false}
-                  //   />
-                  // )}
                   secondaryText={
                     formatDateRange({ 
                       startDate: workItem.startDate,
-                      endDate: workItem.endDate || today.toISOString(),
-                      showMonths: false,
+                      endDate: workItem.endDate,
+                      showMonths: true,
+                      today: today.toISOString(),
                     })
                   }
                   tertiaryText={workItem.company}
@@ -87,8 +81,10 @@ export const HomePage: React.FC = (props) => {
                   secondaryText={
                     formatDateRange({ 
                       startDate: educationItem.startDate,
-                      endDate: educationItem.endDate || today.toISOString(),
+                      endDate: educationItem.endDate,
                       showMonths: false,
+                      showDuration: false,
+                      today: today.toISOString(),
                     })
                   }
                   tertiaryText={educationItem.institution}

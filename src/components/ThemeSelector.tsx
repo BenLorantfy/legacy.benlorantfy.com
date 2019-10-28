@@ -60,10 +60,10 @@ const ThemeButton = styled.button<{ name: string, color: string }>`
 const alternativeThemes: ({ name: string, palette: { highlightColor: string } } & DeepPartial<DefaultTheme>)[] = [
   defaultTheme,
   {
-    name: "purple",
+    name: "green",
     palette: {
-      highlightColor: "#893AFF",
-      shadeColor: lighten(0.1, "#893AFF"),
+      highlightColor: "#498F60",
+      shadeColor: lighten(0.1, "#498F60"),
     }
   },
   {

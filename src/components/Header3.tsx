@@ -37,7 +37,7 @@ const Header = styled.header`
 `;
 
 const PrimaryText = styled.h3`
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-family: 'Roboto Condensed';
   margin-top: 0;
   margin-bottom: 0;
@@ -52,7 +52,7 @@ const SecondaryText = styled.span`
 `;
 
 const TertiaryText = styled.span`
-  font-size: 2.2rem;
+  font-size: 2.0rem;
   font-family: 'Roboto Condensed';
   color: ${props => props.theme.palette.subduedColor};
 `;

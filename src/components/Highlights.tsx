@@ -10,13 +10,17 @@ const Li = styled.li`
   margin-bottom: ${getSpacing("xs")};
 `;
 
+const Ul = styled.ul`
+  margin: 0;
+`;
+
 export const Highlights: React.FC<HighlightsProps> = (props) => {
   return (
-    <ul>
+    <Ul>
       {props.highlights.map((highlight) => (
         <Li key={highlight}><StarBullet/> {highlight}</Li>
       ))}
-    </ul>
+    </Ul>
   )
 }
 

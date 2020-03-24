@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ben Lorantfy",
-    "summary": "- 4+ years of professional software development  \n- 6+ years of occasional mobile and web freelance development  \n- Skilled in react, redux, JavaScript, HTML5, CSS3, TypeScript, nodejs  \n- Experience with automated testing tools such as jest, enzyme, selenium, cucumberjs  \n- Experience with AWS and CircleCI"
+    "summary": "- 4+ years of professional software development  \n- 7+ years of freelance mobile and web development  \n- Skilled in HTML5, CSS3, JavaScript, PHP, MySQL, and others  \n- Experience creating several production-grade web sites and applications"
   },
   "education": [
     {
@@ -20,9 +20,17 @@
   ],
   "work": [
     {
+      "company": "Lorantfy Dev and Design",
+      "position": "Owner / Operator",
+      "startDate": "2020-01-28",
+      "tags": ["HTML", "CSS", "JS", "react", "nodejs"],
+      "summary": "- Own and operate Lorantfy Dev and Design, a web development consultancy.  \n- Builds on my years of experience working in the web development industry, both as a full-time developer and a part-time freelancer"
+    },
+    {
       "company": "Postmedia Innovation Outpost, Kitchener ON",
       "position": "Frontend Lead",
       "startDate": "2018-10-01",
+      "endDate": "2019-12-10",
       "tags": ["react", "redux", "typescript", "jest", "nodejs", "babel", "webpack", "eslint", "selenium", "cucumberjs", "dangerjs", "CircleCI"],
       "summary": "- Oversaw and participated in front-end development of highly depended on web applications.  \n- Provided code-reviews, mentoring, and peer programming  \n- Maintained front-end infrastructure  \n - Worked on back-end services as needed",
       "highlights": [
@@ -44,14 +52,6 @@
         "Helped create an internal ordering system that reliably handles hundreds of orders a day",
         "Helped create an advertising analytics platform, providing insights for sales people and a few thousand Postmedia clients"
       ]
-    },
-    {
-      "company": "Six Factors Inc., Kitchener ON",
-      "tags": ["react", "redux", "typescript", "nodejs"],
-      "position": "Software Developer",
-      "startDate": "2017-02-01",
-      "endDate": "2017-04-01",
-      "summary": "- Worked in a fast-paced startup environment  \n- Worked on front-end and back-end code"
     },
     {
       "company": "Rivison Inc., Petrolia ON",
@@ -78,9 +78,9 @@
     },
     {
       "position": "Freelance Developer",
-      "tags": ["html", "css", "react", "redux", "jQuery", "typescript", "nodejs", "PHP", "MySQL", "cordova"],
+      "tags": ["html", "css", "react", "redux", "jQuery", "typescript", "nodejs", "PHP", "MySQL", "cordova", "react-native", "nativescript"],
       "startDate": "2013",
-      "summary": "I have years of experience working on freelance development projects including websites, apps, graphic design, and 3D modelling. Clients include a water-colour artist, a party company, a realty company, a lab equipment supplier, a professional therapist, the University of Waterloo, and others"
+      "summary": "I have years of part-time experience working on freelance development projects including websites, apps, graphic design, and 3D modelling. Clients include a water-colour artist, a party company, a realty company, a lab equipment supplier, a professional therapist, the University of Waterloo, and others"
     }
   ],
   "awards": [
@@ -99,14 +99,19 @@
   ],
   "volunteer": [
     {
+      "organization": "cra-template-redux",
+      "website": "https://github.com/reduxjs/cra-template-redux",
+      "tags": ["react", "redux", "jest", "prettier"]
+    },
+    {
+      "organization": "cra-template-redux-typescript",
+      "website": "https://github.com/reduxjs/cra-template-redux-typescript",
+      "tags": ["react", "redux", "jest", "prettier", "typescript"]
+    },
+    {
       "organization": "redux-injectors",
       "website": "https://github.com/react-boilerplate/redux-injectors",
       "tags": ["react", "redux", "jest", "prettier", "documentationjs", "babel"]
-    },
-    {
-      "organization": "danger-plugin-commit-lint",
-      "website": "https://github.com/BenLorantfy/danger-plugin-commit-lint",
-      "tags": ["dangerjs", "typescript"]
     },
     {
       "organization": "DefinitelyTyped contributions",

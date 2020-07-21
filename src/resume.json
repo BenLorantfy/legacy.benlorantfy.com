@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ben Lorantfy",
-    "summary": "- 4+ years of professional software development  \n- 7+ years of freelance mobile and web development  \n- Skilled in HTML5, CSS3, JavaScript, PHP, MySQL, and others  \n- Experience creating several production-grade web sites and applications"
+    "summary": "- 4+ years of professional software development  \n- 7+ years of freelance JavaScript development \n- Extensive experience in HTML5, CSS3, JavaScript, React, nodejs, and others  \n- Experience creating several production-grade web sites and applications"
   },
   "education": [
     {
@@ -21,34 +21,32 @@
   "work": [
     {
       "company": "Lorantfy Dev and Design",
-      "position": "Owner / Operator",
+      "position": "Owner / Full-Stack Developer",
       "startDate": "2020-01-28",
-      "tags": ["HTML", "CSS", "JS", "react", "nodejs"],
-      "summary": "- Own and operate Lorantfy Dev and Design, a web development consultancy.  \n- Builds on my years of experience working in the web development industry, both as a full-time developer and a part-time freelancer"
+      "tags": ["react", "redux", "nodejs", "HTML", "CSS", "JS", "AWS", "Docker", "MongoDB"],
+      "summary": "- Own and operate Lorantfy Dev and Design, a software development consultancy specializing in JavaScript."
     },
     {
       "company": "Postmedia Innovation Outpost, Kitchener ON",
       "position": "Frontend Lead",
       "startDate": "2018-10-01",
       "endDate": "2019-12-10",
-      "tags": ["react", "redux", "typescript", "jest", "nodejs", "babel", "webpack", "eslint", "selenium", "cucumberjs", "dangerjs", "CircleCI"],
-      "summary": "- Oversaw and participated in front-end development of highly depended on web applications.  \n- Provided code-reviews, mentoring, and peer programming  \n- Maintained front-end infrastructure  \n - Worked on back-end services as needed",
+      "tags": ["react", "redux", "typescript", "CSS", "nodejs", "CircleCI", "Docker", "babel", "jest", "webpack", "eslint", "selenium", "JIRA", "Confluence", "WCAG" , "AODA"],
+      "summary": "- Oversaw and contributed to front-end development of highly depended on web applications, using react, redux, and other technologies.  \n - Worked closely with product and design teams to create responsive, accessible, well-tested, and performant user experiences.  \n  - Maintained frontend infrastructure including webpack, babel, jest, eslint, and other tools  \n  - Also worked on back-end services and deploy pipelines using node.js, docker, AWS, ECS, CircleCI, and other technologies",
       "highlights": [
+        "Helped start initiative to meet WCAG Level AA compliance while also increasing general a11y awareness. For example, by setting up automated tools, checking for a11y issues during code reviews, and other measures",
         "Created and maintained an internal component library for use across projects",
-        "Introduced tools and processes for improving our accessibility. For example, by adding eslint a11y rules, running lighthouse in CI, creating a11y checklists, etc.",
-        "Reduced JavaScript bundle size in our apps by 84%",
-        "Started and oversaw long-term technical initiatives, including migrating a project to typescript, upgrading from react 15 to react 16, and others"
+        "Initiated and oversaw long-term technical initiatives, including migrating a project to typescript, upgrading from react 15 to react 16, and others"
       ]
     },
     {
       "company": "Postmedia Innovation Outpost, Kitchener ON",
       "position": "Frontend Developer",
-      "tags": ["react", "redux", "typescript", "jest", "nodejs", "babel", "webpack", "eslint", "selenium", "cucumberjs"],
+      "tags": ["react", "redux", "typescript", "CSS", "nodejs", "CircleCI", "Docker", "babel", "jest", "webpack", "eslint", "selenium", "JIRA", "Confluence", "WCAG" , "AODA"],
       "startDate": "2017-05-01",
       "endDate": "2018-10-01",
-      "summary": "- Wrote well-tested, readable front-end and back-end code  \n- Worked in an agile environment, participating in grooming and planning sessions",
+      "summary": "- Worked closely with product and design teams to create responsive, accessible, well-tested, and performant user experiences.  \n- Worked in an agile environment, participating in grooming and planning sessions",
       "highlights": [
-        "Created a dynamic form engine and form builder to allow easy creation and usage of admin-built forms",
         "Helped create an internal ordering system that reliably handles hundreds of orders a day",
         "Helped create an advertising analytics platform, providing insights for sales people and a few thousand Postmedia clients"
       ]
@@ -59,7 +57,7 @@
       "position": "Mobile Developer",
       "startDate": "2016-06-01",
       "endDate": "2016-09-01",
-      "summary": "- Wrote JavaScript code for a PhoneGap mobile application  \n- Responded to customer support questions ",
+      "summary": "- Wrote JavaScript code for a PhoneGap mobile application",
       "highlights": [
         "Helped create a new version of our flagship product in a new technology"
       ]
@@ -72,15 +70,14 @@
       "endDate": "2016-06-01",
       "summary": "- Wrote front-end and back-end code for several web applications to improve production processes  \n- Performed requirement gathering, project management, server administration, and testing",
       "highlights": [
-        "Created a quality assurance tracking system from start to finish. System was used on the shop floor to submit and track car part testing. Production managers noticed substantial efficiency and communication benefits",
-        "Won a Conestoga Co-Op Student of the Year award in part because of the quality assurance system I built"
+        "Created a quality assurance tracking system from start to finish. System was used on the shop floor to submit and track car part testing. Production managers noticed substantial efficiency and communication benefits"
       ]
     },
     {
       "position": "Freelance Developer",
       "tags": ["html", "css", "react", "redux", "jQuery", "typescript", "nodejs", "PHP", "MySQL", "cordova", "react-native", "nativescript"],
       "startDate": "2013",
-      "summary": "I have years of part-time experience working on freelance development projects including websites, apps, graphic design, and 3D modelling. Clients include a water-colour artist, a party company, a realty company, a lab equipment supplier, a professional therapist, the University of Waterloo, and others"
+      "summary": "I have years of part-time experience working on freelance development projects including websites and mobile apps"
     }
   ],
   "awards": [
@@ -94,7 +91,7 @@
       "title": "Skills Canada Web Development Gold Medal",
       "date": "2015",
       "awarder": "Skills Canada",
-      "summary": "I was awarded the Skills Canada Web Development Gold Medal in 2015 for my proficiency in front-end and back-end web development at the Skills Canada 2015 competition in Saskatoon, Saskatchewan. I had advanced through the college competition and a provincial competition before winning nationally. Skills Canada is a well known organization that organizes a national event each year in a rotating province with hundreds of competitions in various skill trade fields."
+      "summary": "I was awarded the Skills Canada Web Development Gold Medal in 2015 for my proficiency in front-end and back-end web development at the Skills Canada 2015 competition in Saskatoon, Saskatchewan. I had advanced through the college competition and a provincial competition before winning nationally. Skills Canada is a respected organization that organizes a national event each year in a rotating province with hundreds of competitions in various skill trade fields."
     }
   ],
   "volunteer": [

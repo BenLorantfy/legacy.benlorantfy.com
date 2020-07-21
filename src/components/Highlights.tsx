@@ -3,6 +3,7 @@ import styled, { withTheme, DefaultTheme } from "styled-components";
 import { getSpacing } from "../utils";
 
 export interface HighlightsProps {
+  highlightsType?: "projects" | "achievements";
   highlights: string[];
 }
 
@@ -10,11 +11,32 @@ const Li = styled.li`
   margin-bottom: ${getSpacing("xs")};
 `;
 
-const Ul = styled.ul`
+const Ul = styled.ul<{ padding?: "sm" | "md" }>`
+  ${(props) => props.padding === "sm" ? "padding-left: 20px;" : ""}
   margin: 0;
 `;
 
+const Label = styled.b`
+  font-weight: 700;
+`;
+
 export const Highlights: React.FC<HighlightsProps> = (props) => {
+  if (props.highlightsType === "projects") {
+    return (
+      <Ul padding="sm">
+        {props.highlights.map((highlight) => {
+          const [client, project] = highlight.split(" // ");
+          return (
+            <Li key={highlight}>
+              <div><Label>Client:</Label> {client}</div>
+              <div><Label>Project:</Label> {project}</div>
+            </Li>
+          );
+        })}
+      </Ul>
+    )
+  }
+
   return (
     <Ul>
       {props.highlights.map((highlight) => (
